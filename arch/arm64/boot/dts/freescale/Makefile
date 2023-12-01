@@ -506,6 +506,7 @@ dtb-$(CONFIG_ARCH_MXC) += imx8qm-mek-sof-cs42888.dtb imx8qm-mek-sof-wm8960.dtb \
 			  imx8qm-mek-revd-sof-wm8962.dtb imx8qm-mek-sof.dtb
 
 # MaaXBoard support
+DTC_FLAGS_maaxboard := -@
 DTC_FLAGS_maaxboard-8ulp := -@
 
 dtb-$(CONFIG_ARCH_MXC) += \
