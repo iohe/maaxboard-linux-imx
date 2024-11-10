@@ -113,12 +113,12 @@
 
 /* For Avnet PH720128T005 LCD display */
 &gt911{
-	status = "okay";
+	status = "disabled";
 };
 
 /* For Avnet PH720128T003 LCD display */
 &ft5426{
-	status = "disabled";
+	status = "okay";
 };
 
 &iomuxc {
